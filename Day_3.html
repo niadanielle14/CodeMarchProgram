@@ -5,6 +5,7 @@
     <title>Day 3 Exercises</title>
 </head>
 <body>
+<div>
 <h3>Exercise 1 - Tables</h3>
 <table border="2px">
     <tr>
@@ -33,25 +34,55 @@
         <td>India</td>
     </tr>
 </table>
-
+</div>
+<div>
 <h3>Exercise 2 - Block and Inline</h3>
 <p>
     This is an inline span <span><a href="https://twitter.com/codemarch?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Codemarch</a>
 </span> element inside a paragraph.
 </p>
+</div>
+<div>
+<h1>Interests Survey Form</h1>
 
-<h3>Exercise 3 - Form </h3>
-<form>
+<form action="day_3.html" method="post">
     <label for="name">Enter your name: </label>
     <input type="text" id="name" name="name">
     <br>
-    <label for="department">Enter your department: </label>
+    <br><label for="department">Enter your department: </label>
     <input type="text" id="department" name="department">
     <br>
-    <label for="about">Tell us a little about yourself: </label>
+    <br><label for="about">Tell us a little about yourself: </label>
     <textarea name="about" id="about" cols="30" rows="10"></textarea>
-
-
+    <br>
+    <br><label for="exercise">Do you exercise at home?</label>
+    <input type="radio" name="exercise" id="exercise" value="Yes">
+    <label for="exercise1">Yes</label>
+    <input type="radio" name="exercise1" id="exercise1" value="No">
+    <label for="exercise1">No</label>
+    <br>
+    <br><label for="topics"> How do you like to read about your favorite topics?</label>
+    <br>
+    <br>
+    <input type="checkbox" name="books" id="topics" value="Books">
+    <label for="topics">Books</label>
+    <input type="checkbox" name="online" id="online" value="Online Resources">
+    <label for="topics">Online resources</label>
+    <input type="checkbox" name="apps" id="apps" value="Phone Apps">
+    <label for="topics">Phone apps</label>
+    <input type="checkbox" name="mags" id="mags" value="Magazines">
+    <label for="topics">Magazines</label>
+    <br>
+    <br>
+    <label for="genre">What genre of movies do you like?</label>
+    <select name="genre" id="genre">
+        <option value="genre1">comedy</option>
+        <option value="genre2">horror</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit Form">
 </form>
+</div>
 </body>
 </html>
