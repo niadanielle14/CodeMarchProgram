@@ -1,8 +1,61 @@
-div {
+#codemarch {
     border: 1px solid gray;
     padding: 8px;
 }
+h2 {
+    text-align: center;
 
+}
 h3 {
     text-align: center;
+    /*centers the text*/
+    text-transform: uppercase;
+    /*transforms text to capitalization*/
+    color: brown;
+    text-decoration-line: underline;
+    /*creates underline on text*/
+    text-decoration-color: black;
+    /*changes the color of the decorated text*/
+    text-decoration-style: solid;
+    /*makes the decoration solid*/
+    text-shadow: 2px 0px 5px black;
+    /*horizontal, vertical, blurr effect, color of shadow*/
+}
+a {
+    text-decoration: none;
+    color: #008CBA;
+}
+#devs {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    /*puts spacing between the words*/
+    text-indent: 50px;
+}
+
+.pointer {
+     cursor: pointer;
+}
+
+.all-scroll {
+cursor: all-scroll;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.progress {
+    cursor: progress;
+}
+.zoom-in {
+    cursor: zoom-in;
 }
