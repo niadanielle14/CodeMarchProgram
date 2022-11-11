@@ -1,3 +1,25 @@
-.col  {
+#col  {
+    color: blueviolet;
+}
 
+.bg {
+    background-color: aqua;
+}
+
+/*This is a CSS comment*/
+
+#code {
+    color: DodgerBlue;
+}
+
+.CSS {
+    color: brown;
+}
+
+#march {
+    background-color: DodgerBlue;
+}
+
+.style {
+    background-color: Tomato;
 }
