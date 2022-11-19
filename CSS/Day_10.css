@@ -81,3 +81,9 @@ img {
 img:hover {
     opacity: 1.0;
 }
+
+.filter {
+    width: 250px;
+    height: 250px;
+    filter: grayscale(100%);
+}
