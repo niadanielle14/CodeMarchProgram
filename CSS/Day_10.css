@@ -59,3 +59,25 @@ cursor: all-scroll;
 .zoom-in {
     cursor: zoom-in;
 }
+
+.codemarch {
+    background-color: orange !important;
+    /*overrides all previous styling*/
+}
+.js {
+    background-color: skyblue !important;
+}
+
+.dev {
+    background-color: aqua !important;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
