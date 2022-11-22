@@ -106,3 +106,38 @@ img:hover {
     border: 3px solid red;
     border-radius: 5px;
 }
+
+.container {
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+}
+
+#codemarch2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+#filter {
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    padding: 10px;
+
+}
+
+.codehover {
+    display: none;
+    background-color: #06283D;
+    padding: 20px;
+    color: white;
+}
+
+
+.codehover:hover .hover {
+display: block;
+}
